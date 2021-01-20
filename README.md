@@ -6,9 +6,9 @@ In order to do so, follow the steps described below:
 1) flash the .hex to both Thunderboard Sense 2s
 
 2) On the first Thunderboard Sense 2, type the following commands in the console:
-dataset commit active
-ifconfig up
-thread start
+'dataset commit active'
+'ifconfig up'
+'thread start'
 
 After a while, you should see the device as network leader, when calling "state"
 
