@@ -6,16 +6,20 @@ In order to do so, follow the steps described below:
 1) flash the .hex to both Thunderboard Sense 2s
 
 2) On the first Thunderboard Sense 2, type the following commands in the console:
-'dataset commit active'
-'ifconfig up'
-'thread start'
+```
+dataset commit active
+ifconfig up
+thread start
+```
 
 After a while, you should see the device as network leader, when calling "state"
 
 3) On the second Thunderboard Sense 2, type the following commands in the console:
+```
 dataset commit active
 routerselectionjitter 1
 ifconfig up
 thread start
+```
 
 Both devices will now be in the same network!
