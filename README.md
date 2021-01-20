@@ -13,6 +13,10 @@ thread start
 ```
 
 After a while, you should see the device as network leader, when calling "state"
+```
+state
+> Leader
+```
 
 **3) On the second Thunderboard Sense 2, type the following commands in the console:**
 ```
@@ -21,5 +25,8 @@ routerselectionjitter 1
 ifconfig up
 thread start
 ```
-
+```
+state
+> Router
+```
 Both devices will now be in the same network!
