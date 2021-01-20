@@ -25,6 +25,7 @@ routerselectionjitter 1
 ifconfig up
 thread start
 ```
+wait a couple of seconds (up to 2 minutes) and call `state`
 ```
 state
 > Router
